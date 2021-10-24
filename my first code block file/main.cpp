@@ -31,8 +31,8 @@ int main()
             {
                 if ((a[2] <= M) && (M <= a[3]))
                 {
-                    a[2] = a[0];
-                    a[3] = a[1];
+                    a[0] = a[2];
+                    a[1] = a[3];
                     break;
                 }
                 else
@@ -42,16 +42,17 @@ int main()
                     {
                         for (int k = 0; k < N; k++)
                         {
-                        a[k] = a[N+k];
+                            a[k] = a[N+k];
                         }
                     }
-                }
-            else
-                {
-                    for (int k = 0; k < N+1; k++)
+
+                    else
                     {
-                        //a[N / 2];
-                        a[k] = a[N+k];
+                        for (int k = 0; k < N+1; k++)
+                        {
+                            //a[N / 2];
+                            a[k] = a[N+k];
+                        }
                     }
                 }
             }
@@ -62,6 +63,7 @@ int main()
 
         }
     }
+
     cout << a[0] << " " << a[1];
     return 0;
 }
