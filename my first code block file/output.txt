@@ -1,0 +1,37 @@
+Step #0: a0 = 0, counter = 1
+Step #1: a1 = 0, counter = 2
+Step #2: a2 = 0, counter = 3
+Step #3: a3 = 0, counter = 4
+Step #4: a4 = 0, counter = 5
+Step #5: a5 = 0, counter = 6
+Step #6: a6 = 0, counter = 7
+Step #7: a7 = 0, counter = 8
+Step #8: a8 = 0, counter = 9
+Step #9: a9 = 0, counter = 10
+Step #10: a10 = 0, counter = 11
+Step #11: a11 = 0, counter = 12
+Step #12: a12 = 0, counter = 13
+Step #13: a13 = 0, counter = 14
+Step #14: a14 = 0, counter = 15
+Step #15: a15 = 0, counter = 16
+Step #16: a16 = 0, counter = 17
+Step #17: a17 = 0, counter = 18
+Step #18: a18 = 0, counter = 19
+Step #19: a19 = 0, counter = 20
+Step #20: a20 = 0, counter = 21
+Step #21: a21 = 0, counter = 22
+Step #22: a22 = 0, counter = 23
+Step #23: a23 = 0, counter = 24
+Step #24: a24 = 0, counter = 25
+Step #25: a25 = 0, counter = 26
+Step #26: a26 = 0, counter = 27
+Step #27: a27 = 0, counter = 28
+Step #28: a28 = 0, counter = 29
+Step #29: a29 = 0, counter = 30
+Step #30: a30 = 0, counter = 31
+Step #31: a31 = 0, counter = 32
+Step #32: a32 = 0, counter = 33
+Step #33: a33 = 0, counter = 34
+Step #34: a34 = 0, counter = 35
+f(x) = count x in a, a = a0, a1, .., an-1:
+f(0) = 35
