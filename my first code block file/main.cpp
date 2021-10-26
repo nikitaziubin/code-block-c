@@ -1,29 +1,44 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
-
 
 int main()
 {
     //ifstream cin("input.main.cpp.txt");
     //ofstream cout("output.main.cpp.txt");
-    int N,M,y,P;
+    float M;
+    int N,y, P;
     cin >> P >> M;
     N = P;
     y = P;
-    int a[N];
+    float a[N];
     for (int i = 0; i < N; i++)
     {
-        int x;
+        float x;
         cin >> x;
         a[i] = x;
     }
 
-    //N = N / 2
-    while (M != -101)
+    while (true)
     {
-        if ((a[0] <= M) && (M <= a[1]))
+        if (P == 0)
         {
+            cout << "error";
             break;
+        }
+        else
+        {
+
+            if ((a[0] <= M) && (M <= a[1]) )
+            {
+            break;
+            }
+        else if ((a[N/2-1] <= M) && (M <= a[N/2]))
+        {
+            a[0] = a[N/2-1];
+            a[1] = a[N/2];
+            break;
+
         }
         else
         {
@@ -50,7 +65,6 @@ int main()
                     {
                         for (int k = 0; k < N+1; k++)
                         {
-                            //a[N / 2];
                             a[k] = a[N+k];
                         }
                     }
@@ -59,11 +73,13 @@ int main()
             else
             {
                 N /= 2;
+
             }
-
         }
-    }
 
-    cout << a[0] << " " << a[1];
+    }
+    }
+   cout << a[0] << " " << a[1];
     return 0;
 }
+
